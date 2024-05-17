@@ -351,7 +351,7 @@ def predict_file (model, file_in, file_out):
 
 def main():
     # load dataset
-    filename = 'C:\\Work\\ML\\Ignition_Model\\datasets\\CH4_IDT_dataset_12727_no_header.csv'
+    filename = '\\ML\\Ignition_Model\\datasets\\CH4_IDT_dataset_12727_no_header.csv'
     raw_data = open(filename, 'r')
     dataset = np.loadtxt(raw_data, delimiter=',')
 
